@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #0b3954;
+  padding: 2rem;
+}
+
+header #logo {
+  color: #f1f1f1;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-right: 4rem;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+header #auth {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-left: auto;
+}
+
+header #auth button {
+  background-color: #9d5691;
+  border: 0;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+section#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  overflow: hidden;
+}
+
+section#hero .hero-text {
+  margin: auto;
+  padding: 0 1rem;
+  width: 600px;
+}
+
+section#hero .hero-text h1 {
+  color: #9d5691;
+  font-size: 2rem;
+}
+
+section#hero .hero-text p {
+  color: #0b3954;
+}
+
+section#hero .hero-text button {
+  background-color: #9d5691;
+  border: 0;
+  border-radius: 1rem;
+  padding: 1.5rem 3rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #f1f1f1;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem 0 #b4b4b4;
+  margin-top: 2rem;
+}
+
+section#hero #hero-img {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#hero #hero-flower {
+  z-index: 1;
+  height: 400px;
+}
+
+section#hero #hero-bg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+section#shop h3 {
+  text-align: center;
+}
+
+section#shop .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+section#shop .row .card {
+  width: 300px;
+  border: 1px solid #eeeeee;
+  padding: 1rem;
+}
+
+section#shop .row .card img {
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+section#shop .row .card button {
+  background-color: #368f8b;
+  border: 0;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  color: #f1f1f1;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+
+section#login {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#login img {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+section#login .card {
+  border: 1px solid rgb(234, 234, 234);
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+section#login .card h3 {
+  text-align: center;
+}
+
+section#login .card form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+section#login .card form input {
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 5px;
+  margin: 0.5rem 0;
+}
+
+section#login .card form .btns {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+section#login .card form .btns a {
+  text-decoration: none;
+  color: #0b3954;
+  font-weight: 800;
+}
+
+section#login .card form button {
+  background-color: #9d5691;
+  border: 0;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  color: #f1f1f1;
+  cursor: pointer;
+}
